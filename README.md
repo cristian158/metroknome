@@ -2,11 +2,11 @@
 
 MetroKnome is a GTK-based digital metronome application designed for musicians, music students, and professionals. It offers precise timing and a variety of features to enhance your practice and performance sessions.
 
-Version: 1.0
+Version: 1.1
 
 ## Features
 
-- Adjustable BPM (Beats Per Minute) from 1 to 400
+- Adjustable BPM (Beats Per Minute) from 1 to 777
 - Volume control from 0 to 1
 - Customizable time signatures (e.g. 4/4, 3/8, 7/16)
 - Visual beat indicator with accent colors
