@@ -1,32 +1,40 @@
 # MetroKnome
 
-MetroKnome is a sophisticated yet simple digital metronome application designed for musicians, music students, and professionals. It offers precise timing and a variety of features to enhance your practice and performance sessions.
+MetroKnome is a GTK-based digital metronome application designed for musicians, music students, and professionals. It offers precise timing and a variety of features to enhance your practice and performance sessions.
 
 Version: 1.0
 
 ## Features
 
-- Adjustable BPM (Beats Per Minute)
-- Volume control
-- Customizable time signatures
-- Visual beat indicator
+- Adjustable BPM (Beats Per Minute) from 1 to 400
+- Volume control from 0 to 1
+- Customizable time signatures (e.g. 4/4, 3/8, 7/16)
+- Visual beat indicator with accent colors
 - Start/Stop functionality
+- Error handling for invalid inputs
+
+## Requirements
+
+- Python 3.6+
+- GTK 3.0
+- Pygame
 
 ## Installation
 
-1. Ensure you have Python 3.6+ installed on your system.
-2. Install the required dependencies:
+1. Install system dependencies:
+```bash
+sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0
+```
+2. Install Python packages:
 ```bash
 pip install pygame PyGObject
 ```
 3. Clone the repository:
-
 ```bash
 git clone https://github.com/cristian158/metroknome.git
 cd metroknome
 ```
 4. Run the application:
-
 ```bash
 python MetroKnome.py
 ```
@@ -34,10 +42,11 @@ python MetroKnome.py
 ## Usage
 
 1. Launch MetroKnome
-2. Set your desired tempo
-3. Choose your time signature
-4. Press the play button to start the metronome
-5. Adjust volume as needed
+2. Set your desired tempo (1-777 BPM)
+3. Choose your time signature (e.g. 4/4, 3/8)
+4. Adjust volume (0.0-1.0)
+5. Press the play button to start the metronome
+6. The visual indicator will show beat accents in green
 
 ## Contributing
 
