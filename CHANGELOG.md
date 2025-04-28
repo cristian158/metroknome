@@ -3,6 +3,9 @@
 ## [1.2.0] - [2025-04-29]
 ### Fixed
 - **Time Signature Logic**: Corrected the metronome interval calculation to accurately reflect the selected time signature denominator. The BPM value now consistently represents quarter notes per minute (e.g., 120 BPM in 4/8 time is twice as fast as 120 BPM in 4/4 time).
+
+### Documentation
+- **Installation Instructions**: Added note about using PYGAME_DETECT_AVX2=1 environment variable when installing pygame for better performance on AVX2-capable systems.
 ## [1.1.0] - [2025-03-19]
 ### Enhancements and Fixes
 - **Error Handling**: Changed error handling in the audio initialization section to log errors to the console instead of showing a dialog.

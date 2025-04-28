@@ -27,6 +27,9 @@ sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0
 ```
 2. Install Python packages:
 ```bash
+# For better performance on AVX2-capable systems, use:
+PYGAME_DETECT_AVX2=1 pip install pygame PyGObject
+# Or for standard installation:
 pip install pygame PyGObject
 ```
 3. Clone the repository:
