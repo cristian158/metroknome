@@ -2,13 +2,13 @@
 
 MetroKnome is a GTK-based digital metronome application designed for musicians, music students, and professionals. It offers precise timing and a variety of features to enhance your practice and performance sessions.
 
-Version: 1.1
+Version: 1.2
 
 ## Features
 
 - Adjustable BPM (Beats Per Minute) from 1 to 777
 - Volume control from 0 to 1
-- Customizable time signatures (e.g. 4/4, 3/8, 7/16)
+- Customizable time signatures (e.g. 4/4, 3/8, 7/16) with accurate tempo scaling (BPM always represents quarter notes)
 - Visual beat indicator with accent colors
 - Start/Stop functionality
 - Error handling for invalid inputs
@@ -43,7 +43,9 @@ python MetroKnome.py
 
 1. Launch MetroKnome
 2. Set your desired tempo (1-777 BPM)
-3. Choose your time signature (e.g. 4/4, 3/8)
+3. Choose your time signature (e.g. 4/4, 3/8, 7/16)
+   - Note: The BPM value always represents quarter notes per minute
+   - Example: 120 BPM in 4/8 will play twice as fast as 120 BPM in 4/4
 4. Adjust volume (0.0-1.0)
 5. Press the play button to start the metronome
 6. The visual indicator will show beat accents in green
@@ -66,6 +68,26 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - [PyGObject](https://pygobject.readthedocs.io/) for the GTK bindings.
 - [Pygame](https://www.pygame.org/) for audio playback.
+
+## Support Me
+
+If you find MetroKnome useful, please consider supporting its development:
+
+### PayPal
+[Support via PayPal](https://paypal.me/CristianNovoaO)
+
+
+![PayPal QR Code](https://path-to-your-paypal-qrcode.png)
+
+### Cryptocurrency
+Bitcoin: YourBitcoinAddressHere
+
+![Bitcoin QR Code](https://path-to-your-crypto-qrcode.png)
+
+### Buy Me a Coffee
+[Buy Me a Coffee](https://www.buymeacoffee.com/YourUsername)
+
+Your support helps maintain and improve MetroKnome. Thank you!
 - All our contributors and users who have provided valuable feedback
 
 ## Contact
